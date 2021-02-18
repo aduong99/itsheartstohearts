@@ -21,6 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
   color: #000;
   font-weight: 600;
+  font-size: 22px;
 }
 
 h4 {
@@ -661,15 +662,15 @@ section {
 
 /* About Us Section
 --------------------------------*/
-#about-us img {
+#our-mission img {
   max-width: 100%;
 }
 
-#about-us .about-content {
+#our-mission .mission-content {
   padding-top: 60px;
 }
 
-#about-us .about-content h2 {
+#our-mission .mission-content h2 {
   color: #252525;
   font-family: "roboto";
   font-size: 39px;
@@ -679,62 +680,62 @@ section {
   text-transform: capitalize;
 }
 
-#about-us .about-content span {
+#our-mission .mission-content span {
   font-weight: 700;
   padding-right: 10px;
   text-transform: uppercase;
 }
 
-#about-us .about-content ul li {
+#our-mission .mission-content ul li {
   line-height: 36px;
 }
 
-#about-us .about-content ul li .fa {
+#our-mission .mission-content ul li .fa {
   padding-right: 20px;
 }
 
 /* Features Section
 --------------------------------*/
-#features {
+#hearts {
   display: inline-block;
   height: 100%;
   width: 100%;
 }
 
-#features .feature-block {
+#hearts .hearts-block {
   background: #fff none repeat scroll 0 0;
   padding: 30px 20px;
   margin-bottom: 30px;
   transition: all 0.5s ease-in-out 0s;
 }
 
-#features .feature-block img {
+#hearts .hearts-block img {
   height: 60px;
   margin-bottom: 30px;
   width: 60px;
 }
 
-#features .feature-block:hover {
+#hearts .hearts-block:hover {
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
   transition: all 0.5s ease-in-out 0s;
 }
 
-#features .feature-block h4 {
+#hearts .hearts-block h4 {
   margin-bottom: 20px;
 }
 
-#features .feature-block p {
+#hearts .hearts-block p {
   margin-bottom: 0;
 }
 
 /* Screenshots Section
 --------------------------------*/
-#screenshots .swiper-pagination {
+#instagram .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-#screenshots .swiper-pagination .swiper-pagination-bullet {
+#instagram .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -742,13 +743,13 @@ section {
   border: 1px solid #71c55d;
 }
 
-#screenshots .swiper-pagination .swiper-pagination-bullet-active {
+#instagram .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #71c55d;
 }
 
 /* Video Section
 --------------------------------*/
-#video {
+/*#video {
   background: url(../img/video-bg.jpg) center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -831,7 +832,7 @@ section {
   -webkit-animation: none;
   animation: none;
   border-radius: 0;
-}
+}*/
 
 @-webkit-keyframes pulsate1 {
   0% {
@@ -890,7 +891,7 @@ section {
   background: #fff none repeat scroll 0 0;
   bottom: 0;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
-  bottom: -147px;
+  bottom: -100px;
   padding: 20px 0;
   position: absolute;
   width: 100%;
@@ -912,8 +913,8 @@ section {
 
 #team .team-block .team-content ul li a .fa {
   float: left;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   transition: 0.3s;
 }
 
@@ -934,10 +935,9 @@ section {
   bottom: 0px;
   transition: all 0.5s ease-in-out 0s;
 }
-
 /* Testimonials Section
 --------------------------------*/
-#testimonials .testimonials-content {
+/*#testimonials .testimonials-content {
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
   padding: 49px 20px;
 }
@@ -1008,11 +1008,11 @@ section {
 
 .carousel-indicators li {
   margin: 0;
-}
+}*/
 
 /* Pricing Table Section
 --------------------------------*/
-#pricing .block-pricing {
+/*#pricing .block-pricing {
   background: #fff;
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.19);
   display: inline-block;
@@ -1074,10 +1074,10 @@ section {
   font-size: 13px;
   margin-right: 5px;
 }
-
+*/
 /* Blog Section
 --------------------------------*/
-@media (max-width: 991px) {
+/*@media (max-width: 991px) {
   #blog .block-blog {
     margin-bottom: 30px;
   }
@@ -1131,11 +1131,11 @@ section {
 
 #blog .block-blog .content-blog a.readmore:hover {
   color: #71c55d;
-}
+}*/
 
 /* Newsletter Section
 --------------------------------*/
-#newsletter {
+/*#newsletter {
   background: rgba(0, 0, 0, 0) url(../img/newsletter-bg.jpg) no-repeat center top fixed;
   background-size: cover;
 }
@@ -1230,7 +1230,7 @@ section {
   color: #fff;
   line-height: 0;
 }
-
+*/
 /* Contact Section
 --------------------------------*/
 #contact {
